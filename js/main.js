@@ -10,6 +10,7 @@ function imgPos(e, image){
   mousePosY = e.y;
   image.style.left = mousePosX - (image.getBoundingClientRect().width * 0.5) + "px";
   image.style.top = mousePosY - (image.getBoundingClientRect().height * 0.5) + "px";
+  image.style.top = mousePosY - (image.getBoundingClientRect().height * 0.5) + "px";
   appear(e, image)
 }
 
